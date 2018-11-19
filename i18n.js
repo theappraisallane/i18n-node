@@ -725,6 +725,7 @@ module.exports = (function() {
 
           if (!fallbackMatch && locales[parentLang]) {
             fallbackMatch = parentLang;
+            break;
           }
         }
 
